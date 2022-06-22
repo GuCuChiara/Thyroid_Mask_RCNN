@@ -7,7 +7,9 @@ It's based on Feature Pyramid Network (FPN) and a ResNet101 backbone.
 
 Different classes of images can be classified.
 It is pending to modify the algorithm to be able to infer the length of the images.
-Based on all of the above, the idea is to be able to infer the TIRADS scale, used in the classification of nodules detected by thyroid ultrasound.![image](https://user-images.githubusercontent.com/105322443/175075210-c2a33fbe-324b-483d-85bc-b66430652160.png)
+Based on all of the above, the idea is to be able to infer the TIRADS scale, used in the classification of nodules detected by thyroid ultrasound.
+![Screenshot (1499)](https://user-images.githubusercontent.com/105322443/175176177-b2d44334-7cda-4aa5-a3e1-ad20d694b17d.png)
+
 # Requirements
 Python 3.7, TensorFlow 1.3, Keras 2.0.8 and other common packages listed in `requirements.txt`.
 
@@ -40,3 +42,4 @@ As it is a test version, the dataset is small, and logically the prediction is g
 -NUM_CLASSES = 1 + 2 (background + (hypo node, iso node)) you can add more classes.
 -CLASSES: "categories":[{"id":1,"name":"nodulo-iso"},{"id":2,"name":"nodulo-hipo"}]
 Train and Validation are automatically created, 90% is used for training and 10% for validation.
+![Screenshot (1498)](https://user-images.githubusercontent.com/105322443/175176247-e937fa84-2f33-4a91-b63c-57ea29a0ad7d.png)
