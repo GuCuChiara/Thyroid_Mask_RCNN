@@ -20,10 +20,11 @@ You can use those weights as a starting point to train your own variation on the
 # Installation
 1. Clone this repository
 2. Download pre-trained COCO weights (mask_rcnn_coco.h5) from the [releases page](https://github.com/matterport/Mask_RCNN/releases).
-3.You can download COCO weights from my google drive: https://drive.google.com/file/d/1L6VYJx__E4_rmds-C4o2KJzumBmZ-TAE/view?usp=sharing
+3. You can download COCO weights from my google drive: https://drive.google.com/file/d/1L6VYJx__E4_rmds-C4o2KJzumBmZ-TAE/view?usp=sharing
 4. Add it into folder Mask_RCNN
 5. Main file is Train_Mask_RCNN_.ipynb
 6. The dataset:
+
 ```
 The dataset with its images were uploaded to https://www.makesense.ai to draw the nodular image masks manually.
 The generated annotations.json file contains all the masks of the dataset, used for training.
