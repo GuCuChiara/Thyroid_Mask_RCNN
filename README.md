@@ -42,6 +42,6 @@ As it is a test version, the dataset is small, and logically the prediction is g
 -NUM_CLASSES = 1 + 2 (background + (hypo node, iso node)) you can add more classes.
 -CLASSES: "categories":[{"id":1,"name":"nodulo-iso"},{"id":2,"name":"nodulo-hipo"}]
 Train and Validation are automatically created, 90% is used for training and 10% for validation.
-
+```
 ![Screenshot (1498)](https://user-images.githubusercontent.com/105322443/175176741-ae55d091-5b46-49b6-a5e2-27b409038886.png)
 
