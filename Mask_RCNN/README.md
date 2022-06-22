@@ -13,7 +13,7 @@ You can use those weights as a starting point to train your own variation on the
 5. Main file is Train_Mask_RCNN_.ipynb
 6. The dataset:
 ```
-The dataset with its images were uploaded to https://www.makesense.ai/, to draw the nodular image masks manually.
+The dataset with its images were uploaded to https://www.makesense.ai to draw the nodular image masks manually.
 The generated annotations.json file contains all the masks of the dataset, used for training.
 The dataset was compressed in the images.zip file, later the images are extracted in the "dataset" folder
 As it is a test version, the dataset is small, and logically the prediction is going to be of low quality.
